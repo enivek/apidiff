@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "API Compare",
+  "description": "This tool compares the results of two APIs",
+  "version": "1.0.1",
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
